@@ -1,4 +1,4 @@
-const assetBase = "https://cdn.jsdelivr.net/gh/simossene/mooodle-g.s.sanaa@cecfebaf862560131ad266418f7303489d42605a/meds-page/assets/";
+const assetBase = "assets/";
 
 const medicines = [
   {
