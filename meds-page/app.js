@@ -1,3 +1,5 @@
+const assetBase = "https://cdn.jsdelivr.net/gh/simossene/mooodle-g.s.sanaa@master/meds-page/assets/";
+
 const medicines = [
   {
     id: "tyrosine",
@@ -6,7 +8,7 @@ const medicines = [
     slot: "morning",
     time: "Réveil / matin à jeun",
     instructions: "Éviter le soir.",
-    image: "assets/l-tyrosine.jpg",
+    image: `${assetBase}l-tyrosine.jpg`,
     condition: "daily",
   },
   {
@@ -16,7 +18,7 @@ const medicines = [
     slot: "breakfast",
     time: "Pendant le petit-déjeuner",
     instructions: "À prendre au cours du repas.",
-    image: "assets/akker-metab.jpg",
+    image: `${assetBase}akker-metab.jpg`,
     condition: "daily",
   },
   {
@@ -26,7 +28,7 @@ const medicines = [
     slot: "breakfast",
     time: "Juste après le petit-déjeuner",
     instructions: "Une fois par jour.",
-    image: "assets/action-diete-4.jpg",
+    image: `${assetBase}action-diete-4.jpg`,
     condition: "daily",
   },
   {
@@ -36,7 +38,7 @@ const medicines = [
     slot: "breakfast",
     time: "2h après le petit-déjeuner",
     instructions: "Magnésium.",
-    image: "assets/mag7.jpg",
+    image: `${assetBase}mag7.jpg`,
     condition: "daily",
   },
   {
@@ -46,7 +48,7 @@ const medicines = [
     slot: "midday",
     time: "15 min avant le déjeuner",
     instructions: "Équivalent L-glutamine à confirmer.",
-    image: "assets/permea-plus.jpg",
+    image: `${assetBase}permea-plus.jpg`,
     condition: "weekdays",
   },
   {
@@ -56,7 +58,7 @@ const medicines = [
     slot: "breakfast",
     time: "Après le petit-déjeuner",
     instructions: "Huiles essentielles. Seulement pendant le cycle.",
-    image: "assets/physiomance-he.jpg",
+    image: `${assetBase}physiomance-he.jpg`,
     condition: "cycle",
   },
   {
@@ -66,7 +68,7 @@ const medicines = [
     slot: "midday",
     time: "Après le déjeuner",
     instructions: "Deuxième prise de la journée, seulement pendant le cycle.",
-    image: "assets/physiomance-he.jpg",
+    image: `${assetBase}physiomance-he.jpg`,
     condition: "cycle",
   },
   {
@@ -76,7 +78,7 @@ const medicines = [
     slot: "afternoon",
     time: "Après-midi",
     instructions: "Tous les jours pendant 3 mois.",
-    image: "assets/acide-lipoique-gold.jpg",
+    image: `${assetBase}acide-lipoique-gold.jpg`,
     condition: "daily",
   },
   {
@@ -86,7 +88,7 @@ const medicines = [
     slot: "evening",
     time: "Après le dîner",
     instructions: "Troisième prise de la journée, seulement pendant le cycle.",
-    image: "assets/physiomance-he.jpg",
+    image: `${assetBase}physiomance-he.jpg`,
     condition: "cycle",
   },
   {
@@ -96,7 +98,7 @@ const medicines = [
     slot: "evening",
     time: "Au coucher",
     instructions: "Seulement pendant le cycle 10 jours/mois.",
-    image: "assets/detoxssentiel.jpg",
+    image: `${assetBase}detoxssentiel.jpg`,
     condition: "cycle",
   },
 ];
